@@ -1,0 +1,13 @@
+{
+  "name": "Placehold.it extension",
+  "description": "Replaces all images with placeholder images",
+  "version": "0.0.1",  
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "script.js"]
+    }
+  ],
+  "manifest_version": 2  
+}
